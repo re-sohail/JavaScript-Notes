@@ -25,19 +25,19 @@ for (let i = row; i >= 1; i--) {
 
 console.log(pattern);
 
-// console.log("------------- Triangle Pattern -------------");
+console.log("------------- Triangle Pattern -------------");
 
 // const rows = 10;
 // let pattern = "";
 
-// for (let i = 1; i <= rows; i++) {
-//   for (let j = 1; j <= i; j++) {
-//     pattern += "*";
-//   }
-//   pattern += "\n";
-// }
+for (let i = 1; i <= rows; i++) {
+  for (let j = 1; j <= i; j++) {
+    pattern += "*";
+  }
+  pattern += "\n";
+}
 
-// console.log(pattern);
+console.log(pattern);
 
 // console.log("------------- Triangle Pattern 2 -------------");
 
