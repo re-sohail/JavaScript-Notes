@@ -2,8 +2,8 @@
 
 // console.log("------------- Triangle Pattern -------------");
 
-// const row = 5;
-// let pattern = "";
+const row = 5;
+let pattern = "";
 
 // for (let i = 1; i <= row; i++) {
 //   for (let j = 1; j <= i; j++) {
@@ -60,8 +60,8 @@ console.log("------------- Triangle Pattern 2 -------------");
 // 456
 // 78910
 
-const rows = 4;
-let pattren = "";
+// const rows = 4;
+// let pattren = "";
 let variable = 1;
 
 for (let i = 1; i <= rows; i++) {
