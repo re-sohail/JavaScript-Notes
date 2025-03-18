@@ -1,6 +1,6 @@
 // Pattern: this s goode way to undersatnd the loop
 
-// console.log("------------- Triangle Pattern -------------");
+console.log("------------- Triangle Pattern -------------");
 
 const row = 5;
 let pattern = "";
@@ -14,16 +14,16 @@ for (let i = 1; i <= row; i++) {
 
 console.log(pattern);
 
-// console.log("------------- Triangle Pattern (Reverse Order) -------------");
+console.log("------------- Triangle Pattern (Reverse Order) -------------");
 
-// for (let i = row; i >= 1; i--) {
-//   for (let j = 1; j <= row - i + 1; j++) {
-//     pattern += j;
-//   }
-//   pattern += "\n";
-// }
+for (let i = row; i >= 1; i--) {
+  for (let j = 1; j <= row - i + 1; j++) {
+    pattern += j;
+  }
+  pattern += "\n";
+}
 
-// console.log(pattern);
+console.log(pattern);
 
 // console.log("------------- Triangle Pattern -------------");
 
